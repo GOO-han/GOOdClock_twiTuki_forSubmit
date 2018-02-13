@@ -8,10 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9639E8E420317BDC009D8F25 /* twitterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9639E8E320317BDC009D8F25 /* twitterViewController.swift */; };
-		9639E8E920317D65009D8F25 /* TwitterShareExtensionUIResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9639E8E520317D62009D8F25 /* TwitterShareExtensionUIResources.bundle */; };
-		9639E8EA20317D65009D8F25 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9639E8E620317D63009D8F25 /* TwitterKit.framework */; };
-		9639E8EB20317D65009D8F25 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9639E8E720317D64009D8F25 /* TwitterKitResources.bundle */; };
-		9639E8EC20317D65009D8F25 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9639E8E820317D64009D8F25 /* TwitterCore.framework */; };
 		9639E8F220317DB8009D8F25 /* TimelineParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9639E8ED20317DB7009D8F25 /* TimelineParser.swift */; };
 		9639E8F320317DB8009D8F25 /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9639E8EE20317DB7009D8F25 /* TweetTableViewCell.swift */; };
 		9639E8F420317DB8009D8F25 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9639E8EF20317DB7009D8F25 /* Tweet.swift */; };
@@ -35,10 +31,6 @@
 
 /* Begin PBXFileReference section */
 		9639E8E320317BDC009D8F25 /* twitterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twitterViewController.swift; sourceTree = "<group>"; };
-		9639E8E520317D62009D8F25 /* TwitterShareExtensionUIResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TwitterShareExtensionUIResources.bundle; sourceTree = "<group>"; };
-		9639E8E620317D63009D8F25 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
-		9639E8E720317D64009D8F25 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TwitterKitResources.bundle; sourceTree = "<group>"; };
-		9639E8E820317D64009D8F25 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
 		9639E8ED20317DB7009D8F25 /* TimelineParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineParser.swift; sourceTree = "<group>"; };
 		9639E8EE20317DB7009D8F25 /* TweetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
 		9639E8EF20317DB7009D8F25 /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
@@ -67,8 +59,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9639E8EA20317D65009D8F25 /* TwitterKit.framework in Frameworks */,
-				9639E8EC20317D65009D8F25 /* TwitterCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,10 +68,6 @@
 		C6305E7E202D9D6B003B06AC = {
 			isa = PBXGroup;
 			children = (
-				9639E8E820317D64009D8F25 /* TwitterCore.framework */,
-				9639E8E620317D63009D8F25 /* TwitterKit.framework */,
-				9639E8E720317D64009D8F25 /* TwitterKitResources.bundle */,
-				9639E8E520317D62009D8F25 /* TwitterShareExtensionUIResources.bundle */,
 				C6305E89202D9D6B003B06AC /* GOOdClock */,
 				C6305E88202D9D6B003B06AC /* Products */,
 			);
@@ -185,8 +171,6 @@
 				C6305E95202D9D6B003B06AC /* LaunchScreen.storyboard in Resources */,
 				C6305E92202D9D6B003B06AC /* Assets.xcassets in Resources */,
 				C6A133CB202EAADE00E300A3 /* Main.storyboard in Resources */,
-				9639E8E920317D65009D8F25 /* TwitterShareExtensionUIResources.bundle in Resources */,
-				9639E8EB20317D65009D8F25 /* TwitterKitResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +327,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6696GEY228;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -362,7 +346,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6696GEY228;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
